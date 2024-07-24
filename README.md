@@ -1,7 +1,3 @@
-Bien sûr, voici un exemple de README pour votre projet GitHub :
-
----
-
 # Web Crawler Project
 
 This project is a simple web crawler designed to scrape web pages and extract information. The main focus of the crawler is to demonstrate basic web scraping capabilities using Python.
