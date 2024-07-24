@@ -70,6 +70,9 @@ class Crawler:
 
         print(f"Exploration terminée. {len(self.visited_urls)} pages visitées.")
 
-# Exemple d'utilisation
-crawler = Crawler(max_pages=10)
-crawler.run('https://dota2.fandom.com/wiki/Dota_2_Wiki')
+
+if __name__ == '__main__' :
+    crawler = Crawler(max_pages=10)
+    crawler.run('https://dota2.fandom.com/wiki/Dota_2_Wiki')
+
+
